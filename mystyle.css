@@ -1,0 +1,126 @@
+#shark{
+    left:100px;top:400px;
+    position:absolute;
+    animation-name:shark;
+    animation-duration:10s;
+    animation-timing-function:linear;
+    animation-iteration-count:infinite;
+    animation-play-state: running;
+}
+@keyframes shark {
+    0%{left:100px;top:400px;}
+    20%{left:300px;top:400px;}
+    40%{left:500px;top:300px;}
+    50%{left:600px;top:50px;}
+    60%{left:600px;top:100px;}
+    80%{left:500px;top:200px;}
+    100%{left:100px;top:400px;transform:scaleX(-1);}
+}
+#turtle{
+    left:100px;top:400px;
+    position:absolute;
+    animation-name:turtle;
+    animation-duration:18s;
+    animation-timing-function:linear;
+    animation-iteration-count:infinite;
+    animation-play-state: running;
+}
+@keyframes turtle {
+    0%{left:200px;top:500px;}
+    20%{left:200px;top:300px;}
+    40%{left:600px;top:200px;}
+    50%{left:500px;top:50px;}
+    60%{left:700px;top:200px;}
+    80%{left:500px;top:200px;}
+    100%{left:100px;top:200px;transform:scaleX(-1);}
+}
+#diver1{
+    left:100px;top:400px;
+    position:absolute;
+    animation-name:diver1;
+    animation-duration:13s;
+    animation-timing-function:linear;
+    animation-iteration-count:infinite;
+    animation-play-state: running;
+}
+@keyframes diver1 {
+    0%{left:100px;top:400px;}
+    20%{left:200px;top:300px;}
+    40%{left:500px;top:300px;}
+    50%{left:600px;top:50px;}
+    60%{left:600px;top:300px;}
+    80%{left:700px;top:200px;}
+    100%{left:200px;top:100px;transform:scaleX(-1);}
+}
+#diver2{
+    left:100px;top:400px;
+    position:absolute;
+    animation-name:diver2;
+    animation-duration:13s;
+    animation-timing-function:linear;
+    animation-iteration-count:infinite;
+    animation-play-state: running;
+}
+@keyframes diver2 {
+    0%{left:130px;top:350px;}
+    20%{left:150px;top:200px;}
+    40%{left:300px;top:100px;}
+    50%{left:400px;top:50px;}
+    60%{left:500px;top:300px;}
+    80%{left:500px;top:200px;}
+    100%{left:150px;top:100px;transform:scaleX(-1);}
+}
+#diver3{
+    left:200px;top:300px;
+    position:absolute;
+    animation-name:diver3;
+    animation-duration:13s;
+    animation-timing-function:linear;
+    animation-iteration-count:infinite;
+    animation-play-state: running;
+}
+@keyframes diver3 {
+    0%{left:400px;top:450px;}
+    20%{left:250px;top:100px;}
+    40%{left:350px;top:100px;}
+    50%{left:400px;top:50px;}
+    60%{left:530px;top:300px;}
+    80%{left:400px;top:200px;}
+    100%{left:250px;top:100px;transform:scaleX(-1);}
+}
+#faintschool{
+    left:100px;top:400px;
+    position:absolute;
+    animation-name:faintschool;
+    animation-duration:10s;
+    animation-timing-function:linear;
+    animation-iteration-count:infinite;
+    animation-play-state: running;
+}
+@keyframes faintschool {
+    0%{left:200px;top:300px;}
+    20%{left:100px;top:200px;}
+    40%{left:300px;top:100px;}
+    50%{left:400px;top:50px;}
+    60%{left:500px;top:300px;}
+    80%{left:500px;top:200px;}
+    100%{left:200px;top:100px;transform:scaleX(-1);}
+}
+#goldfishschool{
+    left:100px;top:400px;
+    position:absolute;
+    animation-name:goldfishschool;
+    animation-duration:12s;
+    animation-timing-function:linear;
+    animation-iteration-count:infinite;
+    animation-play-state: running;
+}
+@keyframes goldfishschool {
+    0%{left:200px;top:350px;}
+    20%{left:120px;top:200px;}
+    40%{left:200px;top:200px;}
+    50%{left:400px;top:50px;}
+    60%{left:600px;top:200px;}
+    80%{left:300px;top:200px;}
+    100%{left:200px;top:150px;transform:scaleX(-1);}
+}
